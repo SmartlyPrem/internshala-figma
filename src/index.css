@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: #FCFCFC;
+}
+
+.btnRound {
+    background: rgb(232, 235, 235);
+    background: linear-gradient(90deg, rgba(232, 235, 235, 1) 0%, rgba(131, 195, 214, 1) 100%);
+    transition: 1s;
+}
+
+.signUpBtn {
+    background: rgb(165, 187, 223);
+    background: linear-gradient(90deg, rgba(165, 187, 223, 1) 0%, rgba(111, 161, 245, 1) 100%);
+}
+
+input[type="checkbox"] {
+    /* Your CSS properties for checkboxes here */
+    width: 20px;
+    height: 20px;
+    background-color: #F1F1F1;
+}
